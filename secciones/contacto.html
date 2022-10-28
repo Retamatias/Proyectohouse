@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../estilo/estilo.css">
+	<title>Invest</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="menu"><!--Menu y submenu-->
+				<a href="../index.html"><img id="imagenLogo" src="../multimedia/invest.png" alt="logo"></a><!--ImagenLogo-->
+				<li class="inicio"><a href="../index.html">Inicio</a></li>
+				<li class="nosotros"><a href="../secciones/nosotros.html">Nosotros</a></li>
+				<li><a href="../secciones/login.html">Login</a></li>
+				<li class="testimonios"><a href="../secciones/Testimonios.html">Testimonios</a>
+			<ul>
+				<li><a href="../secciones/contacto.html">Contacto</a></li>
+				<li><a href="../secciones/compra.html">Compra</a></li></ul></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1 class="titulo">Contacto</h1><!--Titulo-->
+		<div class="imgFlex">
+		<img class="multimedia" src="../multimedia/contacUs.png" alt="contacto">
+		</div>
+		<h2 class="subtitulo">Somos Invest</h2><!--Subtitulo-->
+		<p>En Invest estamos al tanto del cliente y las dudas que tenga, debido a eso, queremos conocerte. Completa el formulario debajo para que podamos tener más información sobre ti.</p>
+	<section><!--Inicio De Tablas-->
+		<h3 class="subSubtitulo">Beneficios de unirte a nuestro equipo</h3>
+		<table border="5px">
+			<tr>
+				<td>Antes de Ingresar a Invest</td>
+				<td>Por lo general, las personas antes de ingresar a Invest tienen deudas y no mucha responsabilidad financiera, por lo cual, no avanzan ni crecen economicamente</td>
+			</tr>
+			<tr>
+				<td>Luego de Ingresar a Invest</td>
+				<td>Luego de Ingresar a Invest, Nuestros estudiantes son capaces de saber y como utilizar su dinero, siendo capaces de poder pagar cuentas y al mismo tiempo poder generar ingresos sin ningún otro inconveniente.</td>
+			</tr>
+			<tr>
+				<td>Tiempo de Crecimiento sin Invest</td>
+				<td>5-10 años Aproximadamente</td>
+			</tr>
+			<tr>
+				<td>Tiempo de Crecimiento con Invest</td>
+				<td>6 a 12 Meses Aproximadamente</td>
+			</tr>
+			<tr>
+				<td>Comentarios comunes de gente que no es parte de nuestro equipo</td>
+				<td>"En algún momento lo pagaré, cuando tenga plata" Esta frase puede ser bastante común en cualquier ámbito donde no haya enseñanza económica, Siempre se deja para después algo que muy probablemente no pueda pagarse en su momento, haciendo una bola de nieve muy complicada de parar.</td>
+			</tr>
+			<tr>
+				<td>Gente que ya es parte de Invest</td>
+				<td>"Gracias a lo que invertí, pude generar un poco más de plata y deshacerme de las deuda que debía." Este es un claro comentario que se recibe diariamente en la academia, De alumnos que gracias a nosotros y nuestra enseñanza, pudieron lograr generar esos ingresos que querían y necesitaban, para así poder deshacerse de deudas y, no obstante, poder generar ingresos a favor. </td>
+			</tr>
+		</table>
+	</section>
+	<section><!--Inicio de Formulario-->
+		<br>
+		<form>
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<label for="nombre">Nombre y Apellido</label><br>
+				<input type="text" name="nombre" placeholder="Completa tu nombre"><br>
+				<label for="dni">DNI</label><br>
+				<input type="number" name="dni" placeholder="Ingresa tu numero de DNI"><br>
+				<label for="email">Email</label><br>
+				<input type="text" name="email" placeholder="Ingresa tu email"><br>
+				<label for="edad">Género</label><br>
+		<form>
+			<select name="genero">
+				<option value="H">Hombre</option>
+				<option value="M">Mujer</option>
+				<option value="NB">No Binario/Otro</option>
+			</select><br>
+		</form>
+		<label for="ciudades">Selecciona tu Ciudad</label><br>
+		<form>
+			<select name="ciudades">
+				<option value="BSAS">Buenos Aires</option>
+				<option value="CRB">Cordoba</option>
+				<option value="RSR">Rosario</option>
+				<option value="MDP">Mar del Plata</option>
+				<option value="SMT">San Miguel de Tucumán</option>
+				<option value="SLT">Salta</option>
+				<option value="STF">Santa Fe</option>
+				<option value="CRT">Corrientes</option>
+				<option value="BB">Bahía Blanca</option>
+				<option value="RST">Resistencia</option>
+			</select>
+		</form>
+		<label for="consultas">Consultas</label><br>
+		<textArea name="consultas" id="" cols="30" rows="15" placeholder="Ingresa tu consulta"></textarea><br>
+		<input type="submit" name= "Enviar">
+		<input type="reset" name="Restablecer"><br>
+		<label for="spam">Deseo recibir emails promocionales</label><input type="checkbox"></fieldset></form>
+	</section><!--Final del Formulario-->
+	</main>
+	<footer><!--Pie de página-->
+		<hr>
+		<p>© Invest all rights reserved by Matias Reta</p>
+	</footer>
+
+</body>
+</html>

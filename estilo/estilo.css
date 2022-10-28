@@ -1,0 +1,230 @@
+/*Reseteo CSS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62,5%;
+	background-image: url(../multimedia/webb.png);
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/*Imagenes y contenido multimedia*/
+#imagenLogo {
+	width: 75px;
+	display: flex;
+	margin-right: 1200px;
+}
+.multimedia {
+	width: 500px;
+}
+.mainPage{
+	width: 500px;
+}
+
+.imagenesFlexInicio {
+	display: flex;
+	justify-content: center;
+}
+
+.imgFlex {
+	display: flex;
+	justify-content: center;
+}
+
+.videoFlex {
+	display: flex;
+	justify-content: center;
+}
+
+/*Menu y submenu*/
+
+.menu {
+	width: 100%;
+    height: 60px;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a0bd8;
+}
+nav ul li a {
+	text-decoration: none;
+}
+ul {
+	font-size: 20px;
+	list-style: none;
+}
+ul li {
+	background-color: #57A773;
+	width: 200px;
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+ul ul {
+	position: absolute;
+	display: none;
+}
+ul ul li {
+	display:block;
+	background-color: #2a0bd8;
+}
+ul li:hover ul {
+	display: block;
+}
+
+/*Titulos y subtitulos*/
+
+.titulo { /*Titulo animado*/
+	animation-name: titulo;
+	animation-duration: 3s;
+	animation-iteration-count: 1s;
+	text-align: center;
+	background-color: #2D2F31;
+	color: #57A773;
+	position: sticky;
+	
+}
+
+
+.subtitulo { /*Subtitulo animado*/
+	animation-name: subtitulo;
+	animation-duration: 2s;
+	animation-iteration-count: 1s;
+	text-align: center;
+	color:  #6A8EAE;
+	margin-bottom: 20px;
+}
+
+
+.subSubtitulo {/*SubSubtitulo animado*/
+	animation-name: subSubtitulo;
+	animation-duration: 3s;
+	animation-iteration-count: 1s;
+	text-align: center;
+	color: #57A773;
+}
+
+/*Keyframes*/
+
+@keyframes titulo {
+	from {
+		opacity: 0;
+		transform: translate(-250px);
+
+	}
+	to {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes subtitulo {
+	from {
+		opacity: 0;
+		transform: translate(-500px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+
+@keyframes subSubtitulo {
+	from {
+		opacity: 0;
+		transform: translate(-500);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+/*Inicio de textos*/
+
+.paquetes { /*Seccion de compra*/
+	color: black;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+b {
+	font-style: italic;
+	color: #6A8EAE;
+}
+
+i {
+	color:#57A773
+}
+
+/*Tablas y formularios*/
+
+/* Página del Login, todavía sin terminar
+
+.divResponsive {
+	background: lightcoral;
+}*/
+
+
+table {
+	display: flex;
+	border-style: ridge; 
+	border-color: #9BD1E5;
+	text-align: center;
+}
+
+fieldset {
+	border-color: #57A773;
+	text-align: center;
+}
+
+legend {
+	display: flex;
+	color: #6A8EAE;
+	text-align: center;
+	font-size: 2em;
+}
+
+label {
+	font-style: italic;
+}
+
+input {
+	border-color: #9BD1E5;
+}
+
+select {
+	border-color: #9BD1E5;
+}
+
+textArea {
+	border-color: #9BD1E5;
+}
+/*Final de Formularios y textos*/
+
+/*Pie de Página/Footer */
+footer {
+	background-color: #2D2F31;
+	color: #fff;
+}
+
+
+/*Media Queries, falta pulir y por eso está comentado
+
+@media screen and (min-width: 400px) and (max-width: 650px){
+	.divResponsive {
+	background: lightsteelblue;
+	}
+}*/
+
